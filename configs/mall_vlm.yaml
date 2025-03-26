@@ -4,8 +4,8 @@ model:
 
 data:
   type: 'image'
-  sources: ['pseudo_label_hierarchical']
-  targets: ['market1501', 'dukemtmcreid']
+  sources: ['pseudo_label_mall']
+  targets: ['pseudo_label_mall','market1501']
   height: 256
   width: 128
   combineall: False
